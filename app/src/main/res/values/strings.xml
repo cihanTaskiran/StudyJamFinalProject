@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Study Jam Final Project</string>
+    <string name="title_planets">Planets</string>
+    <string name="Planet_Name">Planet Name</string>
+    <string name="spinner_title">spinner title</string>
+
+    <string name="Earth">Earth</string>
+    <string name="Mercury">Mercury</string>
+    <string name="Venus">Venus</string>
+    <string name="Mars">Mars</string>
+    <string name="Jupiter">Jupiter</string>
+    <string name="Saturn">Saturn</string>
+
+
+
+</resources>
