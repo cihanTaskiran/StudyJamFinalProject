@@ -14,6 +14,13 @@ public class Earth {
     public static int ImageId = R.drawable.dunya;
     public static String Name = "Dünya";
     public static String OtherName = "Küre-i Arz";
+
+    public static String YorungeEgikligi = "7.155°";
+    public static String KavusumSuresi = "365,25 gün";
+    public static String YorungeHizi = "29.78 km/saat";
+    public static String Yogunluk = "5.515 g/cm3";
+    public static Integer UyduSayisi = 1;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Dünya";
 
     public static String Description = "Güneş Sistemi'nde Güneş'e en yakın üçüncü gezegendir." +

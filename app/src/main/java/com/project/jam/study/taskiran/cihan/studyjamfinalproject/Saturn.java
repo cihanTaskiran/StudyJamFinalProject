@@ -7,6 +7,13 @@ public class Saturn {
     public static int ImageId = R.drawable.saturn;
     public static String Name = "Satürn";
     public static String OtherName = "Zühal";
+
+    public static String YorungeEgikligi = "2,48°";
+    public static String KavusumSuresi = "378,09 gün";
+    public static String YorungeHizi = "9,69 km/saniye";
+    public static String Yogunluk = "0,69 g/cm3";
+    public static Integer UyduSayisi = 62;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Satürn";
 
     public static String Description = "Satürn (eski adı ile Zühal) Güneş Sisteminin Güneş'e yakınlık sırasına göre 6. gezegenidir. "+

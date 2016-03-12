@@ -10,8 +10,23 @@
     <string name="Planet_Description_Title">GENEL</string>
     <string name="Planet_Description">Gezegen Açıklaması</string>
 
-    <string name="Planet_Age_Description_Title">YAŞ</string>
+    <string name="Planet_Age_Description_Title">YAŞ: </string>
     <string name="Planet_Age_Description">Gezegen Yaşı Açıklaması</string>
+
+    <string name="Planet_Uydu_Sayisi_Title">Uydu Sayısı: </string>
+    <string name="Planet_Uydu_Sayisi">Gezegen Uydu Sayısı</string>
+
+    <string name="Planet_Yorunge_Egikligi_Title">Yörünge Eğikliği: </string>
+    <string name="Planet_Yorunge_Egikligi">Gezegen Yörünge Eğikliği</string>
+
+    <string name="Planet_Kavusum_Suresi_Title">Kavuşum Süresi: </string>
+    <string name="Planet_Kavusum_Suresi">Gezegen Kavuşum Süresi</string>
+
+    <string name="Planet_Yorunge_Hizi_Title">Yörünge Hızı: </string>
+    <string name="Planet_Yorunge_Hizi">Gezegen Yörünge Hızı</string>
+
+    <string name="Planet_Yogunluk_Title">Yogunluk: </string>
+    <string name="Planet_Yogunluk">Gezegen Yogunluk</string>
 
 
     <string name="Earth">Dünya</string>

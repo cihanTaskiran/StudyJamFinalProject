@@ -7,6 +7,13 @@ public class Jupiter {
     public static int ImageId = R.drawable.jupiter;
     public static String Name = "Jüpiter";
     public static String OtherName = "Erendiz";
+
+    public static String YorungeEgikligi = "6,09°";
+    public static String KavusumSuresi = "398,88 gün";
+    public static String YorungeHizi = "86.677 km/s";
+    public static String Yogunluk = "1,326 g/cm3";
+    public static Integer UyduSayisi = 67;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Jüpiter";
 
     public static String Description = "Jüpiter (Erendiz, Müşteri) Güneş Sistemi'nin en büyük gezegeni. Güneş'ten uzaklığa göre beşinci sırada " +

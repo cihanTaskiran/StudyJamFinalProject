@@ -7,6 +7,13 @@ public class Venus {
     public static int ImageId = R.drawable.venus;
     public static String Name = "Venüs";
     public static String OtherName = "Zühre";
+
+    public static String YorungeEgikligi = "3,39°";
+    public static String KavusumSuresi = "583.92 gün";
+    public static String YorungeHizi = "35,02 km/saniye";
+    public static String Yogunluk = "5,243 g/cm3";
+    public static Integer UyduSayisi = 0;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Venüs";
 
     public static String Description = "Venüs, Güneş Sisteminde, Güneşe uzaklık bakımından ikinci sıradaki, sıcaklık bakımından "+

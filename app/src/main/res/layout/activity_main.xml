@@ -28,9 +28,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:textStyle="bold"
                 android:gravity="center"
-                android:text="@string/title_planets" />
+                android:text="@string/title_planets"
+                android:textStyle="bold" />
             <!-- Planet List -->
             <Spinner
                 android:id="@+id/planets_spinner"
@@ -81,17 +81,128 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
                 android:orientation="vertical"
-                android:paddingTop="@dimen/activity_horizontal_margin"
-                android:layout_marginTop="5dp">
+                android:paddingTop="@dimen/activity_horizontal_margin">
+
+                <!-- Planet Uydu Sayisi -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/Planet_Uydu_Sayisi_Title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/planet_uydu_sayisi_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Planet_Uydu_Sayisi" />
+                </LinearLayout>
+
+                <!-- Planet Yorunge Egikligi -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/Planet_Yorunge_Egikligi_Title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/planet_yorunge_egikligi_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Planet_Yorunge_Egikligi" />
+                </LinearLayout>
+                <!-- Planet Kavusum Suresi -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/Planet_Kavusum_Suresi_Title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/planet_kavusum_suresi_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Planet_Kavusum_Suresi" />
+                </LinearLayout>
+
+                <!-- Planet Yorunge Hizi -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/Planet_Yorunge_Hizi_Title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/planet_yorunge_hizi_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Planet_Yorunge_Hizi" />
+                </LinearLayout>
+
+                <!-- Planet Yogunluk -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/Planet_Yogunluk_Title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/planet_yogunluk_text_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Planet_Yogunluk" />
+                </LinearLayout>
 
                 <!-- Planet Description -->
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:textStyle="bold"
-                    android:text="@string/Planet_Description_Title" />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Planet_Description_Title"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/planet_description_text_view"
                     android:layout_width="fill_parent"

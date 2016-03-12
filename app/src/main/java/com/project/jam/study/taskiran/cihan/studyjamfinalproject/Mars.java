@@ -8,6 +8,13 @@ public class Mars {
     public static int ImageId = R.drawable.mars;
     public static String Name = "Mars";
     public static String OtherName = "Merih";
+
+    public static String YorungeEgikligi = "5,65°";
+    public static String KavusumSuresi = "779,96 gün";
+    public static String YorungeHizi = "13,056 km/saat";
+    public static String Yogunluk = "3,934 g/cm3";
+    public static Integer UyduSayisi = 2;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Mars";
 
     public static String Description = "Latince Mars veya Arapça Merih (Türkçe: Bakırsokum ya da Sakıt), Güneş Sistemi'nin Güneş'ten itibâren dördüncü" +

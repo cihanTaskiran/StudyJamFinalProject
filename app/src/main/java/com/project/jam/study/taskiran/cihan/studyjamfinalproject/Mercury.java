@@ -7,6 +7,13 @@ public class Mercury {
     public static int ImageId = R.drawable.merkur;
     public static String Name = "Merkür";
     public static String OtherName = "Utarit";
+
+    public static String YorungeEgikligi = "3.38°";
+    public static String KavusumSuresi = "115.8776 gün";
+    public static String YorungeHizi = "47.87 km/saniye";
+    public static String Yogunluk = "5.427 g/cm3";
+    public static Integer UyduSayisi = 0;
+
     public static String Wikipedia = "https://tr.wikipedia.org/wiki/Merkür";
 
     public static String Description = "Merkür (Utarit), Güneş Sistemi'nin Güneş'e en yakın gezegenidir. 8 gezegenin en küçüğüdür. " +
