@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,18 +23,22 @@
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingTop="@dimen/activity_vertical_margin">
 
+            <!-- Planet Title -->
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
                 android:text="@string/title_planets" />
-
+            <!-- Planet List -->
             <Spinner
                 android:id="@+id/planets_spinner"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:prompt="@string/spinner_title" />
+                android:prompt="@string/Planet_List" />
 
+            <!-- Top  Image  and Names  -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -63,41 +68,51 @@
                         android:text="@string/Planet_Name" />
 
                     <TextView
-                        android:id="@+id/planet_name_text_view1"
+                        android:id="@+id/planet_other_name_text_view"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="5dp"
-                        android:text="@string/Planet_Name" />
+                        android:text="@string/Planet_Other_Name" />
                 </LinearLayout>
 
             </LinearLayout>
 
-
+            <!-- Bottom  Description, Age -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
                 android:paddingTop="@dimen/activity_horizontal_margin"
-                android:orientation="vertical">
+                android:layout_marginTop="5dp">
 
+                <!-- Planet Description -->
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="aaaa" />
+                    android:textStyle="bold"
+                    android:text="@string/Planet_Description_Title" />
+                <TextView
+                    android:id="@+id/planet_description_text_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/Planet_Description" />
 
+                <!-- Planet Age
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="bbb" />
-
+                    android:textStyle="bold"
+                    android:text="@string/Planet_Age_Description_Title" />
                 <TextView
+                    android:id="@+id/planet_age_description_text_view"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
-                    android:text="Yapılan araştırmalar sonucu gezegeninin yaşı 4,467 milyar yıl olarak hesaplanmıştır. Geçen bu zaman dilimi, karmaşık bileşik yapılar ve içerdiği elementler göze alındığında, Güneş, Dünya ve diğer gezegenler dahil Güneş Sistemi'ndeki yapıları oluşturan moleküler bulutsunun kaynağı, ömrünü önceden tamamlamış bir genç tip yıldızın dağılmış artıklarının ve yıldızlar arası maddenin bir merkez etrafında dönerek gittikçe yoğunlaşmasıyla oluşmuştur. Merkezde yoğunlaşan hidrojen ve helyum molekülleri yeni bir G2 türü yıldızı, yani Güneş'i oluşturmaya başlamış, çevre disklerdeki yoğunluklu bölgelerde ise gezegenler oluşmaya başlamıştır. Dünya ise Güneş'e 3. sırada yakınlıkta bulunan karasal bir iç gezegendir." />
-
-
+                    android:text="@string/Planet_Age_Description" />
+                -->
             </LinearLayout>
 
         </LinearLayout>

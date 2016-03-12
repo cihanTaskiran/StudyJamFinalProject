@@ -1,15 +1,25 @@
 <resources>
     <string name="app_name">Study Jam Final Project</string>
-    <string name="title_planets">Planets</string>
-    <string name="Planet_Name">Planet Name</string>
-    <string name="spinner_title">spinner title</string>
+    <string name="title_planets">GEZEGENLER</string>
+    <string name="Planet_List">Gezegen Listesi</string>
 
-    <string name="Earth">Earth</string>
-    <string name="Mercury">Mercury</string>
-    <string name="Venus">Venus</string>
+    <string name="Planet_Name">Gezegen İsmi</string>
+    <string name="Planet_Other_Name">Gezegen Diğer Adı</string>
+
+
+    <string name="Planet_Description_Title">GENEL</string>
+    <string name="Planet_Description">Gezegen Açıklaması</string>
+
+    <string name="Planet_Age_Description_Title">YAŞ</string>
+    <string name="Planet_Age_Description">Gezegen Yaşı Açıklaması</string>
+
+
+    <string name="Earth">Dünya</string>
     <string name="Mars">Mars</string>
-    <string name="Jupiter">Jupiter</string>
-    <string name="Saturn">Saturn</string>
+    <string name="Mercury">Merkür</string>
+    <string name="Venus">Venüs</string>
+    <string name="Jupiter">Jüpiter</string>
+    <string name="Saturn">Satürn</string>
 
 
 
