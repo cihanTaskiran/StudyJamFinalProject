@@ -1,7 +1,9 @@
 package com.project.jam.study.taskiran.cihan.studyjamfinalproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -14,6 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
+    private Integer SelectedPlanetPosition;
 
     private Spinner myPlanetListSpinner;
     private ImageView myPlanetImage;
@@ -28,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private TextView myPlanetKavusumSuresi;
     private TextView myPlanetYorungeHizi;
     private TextView myPlanetYogunluk;
+    private TextView myPlanetWikipediaLink;
 
 
     @Override
@@ -41,6 +46,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     }
 
+    /*
+    * *  set initialize layout items
+    * */
     private void initializeLayoutItems() {
         // Spinner
         myPlanetListSpinner = (Spinner) findViewById(R.id.planets_spinner);
@@ -65,8 +73,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi = (TextView) findViewById(R.id.planet_yorunge_hizi_text_view);
         // "@+id/planet_yogunluk_text_view"
         myPlanetYogunluk = (TextView) findViewById(R.id.planet_yogunluk_text_view);
+        // "@+id/planet_yogunluk_text_view"
+        myPlanetWikipediaLink = (TextView) findViewById(R.id.planet_wikipedia_link_view);
+
     }
 
+    /*
+    * *  set initialize planet list items
+    * */
     private void setSpinnerCategories() {
         // Spinner Drop down elements
         ArrayList<String> categories = new ArrayList<String>();
@@ -91,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         // On selecting a spinner item
+        SelectedPlanetPosition = position;
         String item = parent.getItemAtPosition(position).toString();
 
         // Showing selected spinner item
@@ -112,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     /*
-    * Set Methods
+    * Set Planet Information Methods
     * */
     private void SetEarthInformation() {
         myPlanetImage.setImageResource(Earth.ImageId);
@@ -125,9 +140,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Earth.YorungeHizi);
         myPlanetYogunluk.setText(Earth.Yogunluk);
         myPlanetUyduSayisi.setText((Earth.UyduSayisi).toString());
+        myPlanetWikipediaLink.setText(Earth.Wikipedia);
     }
-
-    ;
 
     private void SetMarsInformation() {
         myPlanetImage.setImageResource(Mars.ImageId);
@@ -140,9 +154,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Mars.YorungeHizi);
         myPlanetYogunluk.setText(Mars.Yogunluk);
         myPlanetUyduSayisi.setText((Mars.UyduSayisi).toString());
+        myPlanetWikipediaLink.setText(Mars.Wikipedia);
     }
-
-    ;
 
     private void SetJupiterInformation() {
         myPlanetImage.setImageResource(Jupiter.ImageId);
@@ -155,9 +168,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Jupiter.YorungeHizi);
         myPlanetYogunluk.setText(Jupiter.Yogunluk);
         myPlanetUyduSayisi.setText((Jupiter.UyduSayisi).toString());
+        myPlanetWikipediaLink.setText(Jupiter.Wikipedia);
     }
-
-    ;
 
     private void SetMercuryInformation() {
         myPlanetImage.setImageResource(Mercury.ImageId);
@@ -170,9 +182,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Mercury.YorungeHizi);
         myPlanetYogunluk.setText(Mercury.Yogunluk);
         myPlanetUyduSayisi.setText((Mercury.UyduSayisi).toString());
+        myPlanetWikipediaLink.setText(Mercury.Wikipedia);
     }
-
-    ;
 
     private void SetSaturnInformation() {
         myPlanetImage.setImageResource(Saturn.ImageId);
@@ -185,9 +196,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Saturn.YorungeHizi);
         myPlanetYogunluk.setText(Saturn.Yogunluk);
         myPlanetUyduSayisi.setText((Saturn.UyduSayisi).toString());
+        myPlanetWikipediaLink.setText(Saturn.Wikipedia);
     }
-
-    ;
 
     private void SetVenusInformation() {
         myPlanetImage.setImageResource(Venus.ImageId);
@@ -200,51 +210,22 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         myPlanetYorungeHizi.setText(Venus.YorungeHizi);
         myPlanetYogunluk.setText(Venus.Yogunluk);
         myPlanetUyduSayisi.setText((Venus.UyduSayisi).toString());
-    }
-
-    ;
-
-
-    private void setPlanetPicture(int resourceId) {
-        myPlanetImage.setImageResource(resourceId);
-    }
-
-    private void setPlanetNames(String name, String otherName) {
-        myPlanetName.setText(name);
-        myPlanetOtherName.setText(otherName);
-    }
-
-    private void setPlanetDescription(String description) {
-        myPlanetDescription.setText(description);
-    }
-
-    private void setPlanetAgeDescription(String ageDescription) {
-        myPlanetAgeDescription.setText(ageDescription);
-    }
-
-    private void setPlanetYorungeEgikligi(String yorungeEgikligi) {
-        myPlanetYorungeEgikligi.setText(yorungeEgikligi);
-    }
-
-    private void setPlanetKavusumSuresi(String kavusumSuresi) {
-        myPlanetKavusumSuresi.setText(kavusumSuresi);
-    }
-
-    private void setPlanetYorungeHizi(String yorungeHizi) {
-        myPlanetYorungeHizi.setText(yorungeHizi);
-    }
-
-    private void setPlanetYogunluk(String yogunluk) {
-        myPlanetYogunluk.setText(yogunluk);
-    }
-
-    private void setPlanetUyduSayisi(Integer uyduSayisi) {
-        myPlanetUyduSayisi.setText(uyduSayisi);
+        myPlanetWikipediaLink.setText(Venus.Wikipedia);
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
         // TODO Auto-generated method stub
 
+    }
+
+    /*
+    * *  Go to Image view detail activity
+    * */
+    public void goToImageDetailActivity(View v) {
+        Intent myIntent = new Intent(MainActivity.this, ImageDetailActivity.class);
+        Log.e("MainActivity", "SelectedPlanetPosition: " + SelectedPlanetPosition.toString());
+        myIntent.putExtra("SelectedPlanetPosition", SelectedPlanetPosition);
+        startActivity(myIntent);
     }
 }

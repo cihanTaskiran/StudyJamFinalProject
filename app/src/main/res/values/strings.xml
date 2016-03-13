@@ -1,4 +1,5 @@
 <resources>
+    <string name="title_activity_main2">elma</string>
     <string name="app_name">Study Jam Final Project</string>
     <string name="title_planets">GEZEGENLER</string>
     <string name="Planet_List">Gezegen Listesi</string>
@@ -7,7 +8,7 @@
     <string name="Planet_Other_Name">Gezegen Diğer Adı</string>
 
 
-    <string name="Planet_Description_Title">GENEL</string>
+    <string name="Planet_Description_Title">GENEL BİLGİLER</string>
     <string name="Planet_Description">Gezegen Açıklaması</string>
 
     <string name="Planet_Age_Description_Title">YAŞ: </string>
@@ -28,6 +29,11 @@
     <string name="Planet_Yogunluk_Title">Yogunluk: </string>
     <string name="Planet_Yogunluk">Gezegen Yogunluk</string>
 
+    <string name="Planet_Wikipedia_Link_Title">Wikipedia: </string>
+    <string name="Planet_Wikipedia_Link">Wikipedia Link</string>
+
+    <string name="Planet_Image_Detail_Button">Diğer Resimler</string>
+    <string name="Planet_Image_Detail_Title">Gezegen Resimleri</string>
 
     <string name="Earth">Dünya</string>
     <string name="Mars">Mars</string>

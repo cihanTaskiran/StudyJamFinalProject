@@ -12,6 +12,10 @@ import android.os.Bundle;
 public class Earth {
 
     public static int ImageId = R.drawable.dunya;
+    public static int Image01Id = R.drawable.dunya_01;
+    public static int Image02Id = R.drawable.dunya_02;
+    public static int Image03Id = R.drawable.dunya_03;
+
     public static String Name = "Dünya";
     public static String OtherName = "Küre-i Arz";
 
@@ -28,14 +32,14 @@ public class Earth {
             "Katı ya da 'kaya' ağırlıklı yapısı nedeniyle üyesi bulunduğu yer benzeri gezegenler grubuna adını vermiştir. " +
             "Bu gezegen grubunun kütle ve hacim açısından en büyük üyesidir. Büyüklükte, Güneş Sistemi'nin 8 gezegeni arasında " +
             "gaz devlerinin büyük farkla arkasından gelerek, beşinci sıraya yerleşir. Tek doğal uydusu Ay'dır. Yeryüzü, Yerküre, " +
-            "Mavi Gezegen ya da Latince adıyla Terra olarak da anılır." + "\n" +
+            "Mavi Gezegen ya da Latince adıyla Terra olarak da anılır." + "\n\n" +
             "Yapılan araştırmalar sonucu gezegeninin yaşı 4,467 milyar yıl olarak hesaplanmıştır. Geçen bu zaman dilimi, karmaşık " +
             "bileşik yapılar ve içerdiği elementler göze alındığında, Güneş, Dünya ve diğer gezegenler dahil Güneş Sistemi'ndeki " +
             "yapıları oluşturan moleküler bulutsunun kaynağı, ömrünü önceden tamamlamış bir genç tip yıldızın dağılmış artıklarının " +
             "ve yıldızlar arası maddenin bir merkez etrafında dönerek gittikçe yoğunlaşmasıyla oluşmuştur. Merkezde yoğunlaşan " +
             "hidrojen ve helyum molekülleri yeni bir G2 türü yıldızı, yani Güneş'i oluşturmaya başlamış, çevre disklerdeki " +
             "yoğunluklu bölgelerde ise gezegenler oluşmaya başlamıştır. Dünya ise Güneş'e 3. sırada yakınlıkta bulunan karasal bir " +
-            "iç gezegendir." + "\n" +
+            "iç gezegendir." + "\n\n" +
             "Oluşum diskleri süreci veya sonrasında bu karasal gezegenler, ağır göktaşı çarpışmalarına sahne olmuştur. Göktaşları " +
             "yapısında bulunan donmuş buzlar, silikat ve metal yapılar, karaların ve okyanuslarının oluşmasını sağlamış, merkezde " +
             "yoğunlaşan ağır demir ve nikel elementleri ise gezegenimizin çekirdeğini oluşturmuştur. Ağır göktaşı bombardımanı, " +

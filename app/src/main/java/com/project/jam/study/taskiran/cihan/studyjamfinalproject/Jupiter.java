@@ -5,6 +5,9 @@ package com.project.jam.study.taskiran.cihan.studyjamfinalproject;
  */
 public class Jupiter {
     public static int ImageId = R.drawable.jupiter;
+    public static int Image01Id = R.drawable.jupiter_01;
+    public static int Image02Id = R.drawable.jupiter_02;
+    public static int Image03Id = R.drawable.jupiter_03;
     public static String Name = "Jüpiter";
     public static String OtherName = "Erendiz";
 
@@ -18,7 +21,7 @@ public class Jupiter {
 
     public static String Description = "Jüpiter (Erendiz, Müşteri) Güneş Sistemi'nin en büyük gezegeni. Güneş'ten uzaklığa göre beşinci sırada " +
             "yer alır. Adını Roma mitolojisindeki tanrıların en büyüğü olan Jüpiter'den alır. Büyük ölçüde hidrojen ve helyumdan oluşmakta " +
-            "ve gaz devleri sınıfına girmektedir." + "\n" +
+            "ve gaz devleri sınıfına girmektedir." + "\n\n" +
             "Jüpiter gerek çap, gerekse kütle açısından Güneş Sistemi'ndeki en büyük gezegendir. Nispeten düşük olan yoğunluğu (suyun " +
             "yoğunluğunun 1,33 katı), gezegenin akışkan yapısı ve kendi çevresindeki dönüş hızının yüksekliği nedeniyle, Satürn " +
             "kadar olmasa da ekvatorda geniş, kutuplarda basık elipsoid görünüme sahiptir. yansıtabilirlik derecesi (albedo) 0,52 " +
@@ -27,7 +30,7 @@ public class Jupiter {
             "nedenle gezegen, Güneş'e olan uzaklığına göre hesaplanan 106 K'den (-167 °C) çok daha yüksek bir etkin sıcaklığa " +
             "sahiptir ve 126 K (-147 °C) sıcaklığında bir kara cisim gibi ışır. Jüpiter'in kendi içinde yarattığı bu enerji fazlası, " +
             "gezegenin yerçekiminin etkisi ile yavaşca kendisi üzerine çökerek küçülmesi sırasında dönüştürülen potansiyel enerji " +
-            "ile açıklanmaktadır. Bu olgu Kelvin-Helmholtz mekanizması olarak adlandırılır." + "\n" +
+            "ile açıklanmaktadır. Bu olgu Kelvin-Helmholtz mekanizması olarak adlandırılır." + "\n\n" +
             "Gaz devleri, içerdikleri elementlerin oranlarına göre iki alt gruba ayrılırlar. Uranüs ve Neptün 'buz' ve 'kaya' oranı " +
             "daha yüksek Uranüs benzeri gezegenler grubundadır. Jüpiter ve Satürn ise, adını yine Jüpiter'den alan Jüpiter benzeri " +
             "gezegenler grubu içindedir. Jüpiter benzeri gezegenlerin kabaca Güneş'i ve benzer yıldızları oluşturan maddeleri bu " +

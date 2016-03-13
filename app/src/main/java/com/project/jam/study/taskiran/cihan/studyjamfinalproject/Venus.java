@@ -5,6 +5,9 @@ package com.project.jam.study.taskiran.cihan.studyjamfinalproject;
  */
 public class Venus {
     public static int ImageId = R.drawable.venus;
+    public static int Image01Id = R.drawable.venus_01;
+    public static int Image02Id = R.drawable.venus_02;
+    public static int Image03Id = R.drawable.venus_03;
     public static String Name = "Venüs";
     public static String OtherName = "Zühre";
 
@@ -22,12 +25,12 @@ public class Venus {
             "üzerinde canlıların yaşadığı yeşil bir gezegen olduğunu da söylerlerdi. Ayrıca Zühre, Çolpan veya Çoban Yıldızı olarak "+
             "da bilinir. Bu gezegen adını Eski Roma tanrıçası Venüs (Eski Yunan Mitolojisi'nde Afrodit)'ten almıştır. Kendi ekseni "+
             "etrafında, Güneş Sistemindeki diğer tüm gezegenlerin aksi istikamette döner. Güneş etrafındaki dönüşünü 224.7 Dünya "+
-            "gününde tamamlar."+ "\n"+
+            "gününde tamamlar."+ "\n\n"+
             "Büyüklüğü açısından Dünya ile benzerlik gösterdiğinden Dünya ile kardeş gezegen veya dünyanın ikizi olarak da "+
             "bilinmektedir. Gökyüzünde Güneş'e yakın konumda bulunduğundan ve yörüngesi Dünya'nınkine göre Güneş'e daha yakın "+
             "olduğundan yeryüzünden sadece Güneş doğmadan önce veya battıktan sonra görülebilir. Bu yüzden Venüs Akşam Yıldızı, "+
             "Sabah Yıldızı veya Tan Yıldızı olarak da isimlendirilir. Bir diğer adı da 'Çoban yıldızı'dır. Görülebildiği zamanlar, "+
-            "gökyüzündeki en parlak cisim olarak dikkat çeker." + "\n"+
+            "gökyüzündeki en parlak cisim olarak dikkat çeker." + "\n\n"+
             "Venüs Ay, Güneş, Merkür, Mars, Jüpiter, ve Satürn ile birlikte, görünür hareketlerinin diğer yıldızlardan farklılığıyla "+
             "tanınan 7 gökcisminden biri olarak gösterilir. Bu yönüyle, antik gökbilim için olduğu kadar astroloji açısından da önem "+
             "taşıyan gezegen, birçok dilde haftanın yedi gününe adını veren gökcisimlerinden biri olarak, tarihöncesinden günümüze "+
